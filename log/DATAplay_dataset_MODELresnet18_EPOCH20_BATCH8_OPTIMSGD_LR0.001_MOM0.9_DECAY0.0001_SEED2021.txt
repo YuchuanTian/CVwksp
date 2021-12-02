@@ -1,0 +1,44 @@
+Run: DATAplay_dataset_MODELresnet18_EPOCH20_BATCH8_OPTIMSGD_LR0.001_MOM0.9_DECAY0.0001_SEED2021
+Time of start: 2021-12-02 15:14:53.733378
+Args: Namespace(data_dir='./play_dataset', data_name='play_dataset', num_classes=10, model='resnet18', epoch=20, batch_size=8, optim='SGD', lr=0.001, weight_decay=0.0001, momentum=0.9, no_cuda=False, gpu=0, log='./log/DATAplay_dataset_MODELresnet18_EPOCH20_BATCH8_OPTIMSGD_LR0.001_MOM0.9_DECAY0.0001_SEED2021.txt', seed=2021, cuda=True, name='DATAplay_dataset_MODELresnet18_EPOCH20_BATCH8_OPTIMSGD_LR0.001_MOM0.9_DECAY0.0001_SEED2021')
+=========================================
+Epoch 000/020, Training Loss 70.09, Training Time 2.82s, Validation Accuracy 6.78
+End of this epoch at: 2021-12-02 15:15:14.893490
+Epoch 001/020, Training Loss 61.22, Training Time 1.95s, Validation Accuracy 35.59
+End of this epoch at: 2021-12-02 15:15:16.842333
+Epoch 002/020, Training Loss 51.77, Training Time 1.94s, Validation Accuracy 45.76
+End of this epoch at: 2021-12-02 15:15:18.780972
+Epoch 003/020, Training Loss 39.32, Training Time 1.78s, Validation Accuracy 37.29
+End of this epoch at: 2021-12-02 15:15:20.566802
+Epoch 004/020, Training Loss 35.39, Training Time 1.76s, Validation Accuracy 54.24
+End of this epoch at: 2021-12-02 15:15:22.330313
+Epoch 005/020, Training Loss 28.85, Training Time 2.06s, Validation Accuracy 57.63
+End of this epoch at: 2021-12-02 15:15:24.393805
+Epoch 006/020, Training Loss 24.33, Training Time 1.52s, Validation Accuracy 72.88
+End of this epoch at: 2021-12-02 15:15:25.918657
+Epoch 007/020, Training Loss 21.81, Training Time 1.85s, Validation Accuracy 79.66
+End of this epoch at: 2021-12-02 15:15:27.773247
+Epoch 008/020, Training Loss 19.26, Training Time 1.79s, Validation Accuracy 76.27
+End of this epoch at: 2021-12-02 15:15:29.561240
+Epoch 009/020, Training Loss 12.50, Training Time 1.93s, Validation Accuracy 86.44
+End of this epoch at: 2021-12-02 15:15:31.493689
+Epoch 010/020, Training Loss 9.20, Training Time 1.83s, Validation Accuracy 91.53
+End of this epoch at: 2021-12-02 15:15:33.325029
+Epoch 011/020, Training Loss 10.75, Training Time 1.70s, Validation Accuracy 89.83
+End of this epoch at: 2021-12-02 15:15:35.024896
+Epoch 012/020, Training Loss 8.60, Training Time 1.70s, Validation Accuracy 88.14
+End of this epoch at: 2021-12-02 15:15:36.721352
+Epoch 013/020, Training Loss 7.25, Training Time 1.90s, Validation Accuracy 88.14
+End of this epoch at: 2021-12-02 15:15:38.625966
+Epoch 014/020, Training Loss 6.88, Training Time 1.95s, Validation Accuracy 89.83
+End of this epoch at: 2021-12-02 15:15:40.580796
+Epoch 015/020, Training Loss 5.68, Training Time 1.87s, Validation Accuracy 96.61
+End of this epoch at: 2021-12-02 15:15:42.455500
+Epoch 016/020, Training Loss 4.59, Training Time 2.02s, Validation Accuracy 94.92
+End of this epoch at: 2021-12-02 15:15:44.473007
+Epoch 017/020, Training Loss 7.43, Training Time 1.66s, Validation Accuracy 94.92
+End of this epoch at: 2021-12-02 15:15:46.132597
+Epoch 018/020, Training Loss 5.79, Training Time 1.79s, Validation Accuracy 91.53
+End of this epoch at: 2021-12-02 15:15:47.919603
+Epoch 019/020, Training Loss 5.58, Training Time 1.98s, Validation Accuracy 94.92
+End of this epoch at: 2021-12-02 15:15:49.902423

@@ -28,3 +28,13 @@ pip install torch
 pip install torchvision
 pip install argparse
 ```
+### Train Your First Neural Network!
+- Open a terminal in this directory;
+- Execute ```conda activate base```;
+- No CUDA: execute ```python train.py --no_cuda```;
+- With CUDA: execute ```sudo bitfusion run -n 1 -- /home/JI/ji51xxxxxxxxxx/anaconda3/bin/python train.py```.
+
+### The "Pytorch Image Models" (```timm```) Library
+- The ```timm``` library has various kinds of image classification models
+- Link: https://rwightman.github.io/pytorch-image-models/
+- Installation: ```pip install timm```.

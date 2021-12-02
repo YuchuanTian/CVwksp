@@ -8,7 +8,7 @@ import argparse
 import datetime, time
 import numpy as np
 import random
-
+# import timm
 def train(model, optimizor, criterion, loader, args):
     model.train() # set model to train mode
     all_loss = 0.0
@@ -55,10 +55,10 @@ if __name__ == '__main__':
     # data
     parser.add_argument('--data_dir', type=str, default='./play_dataset')
     parser.add_argument('--data_name', type=str, default='play_dataset')
-    parser.add_argument('--num_classes', type=int, default=31, help='Number of classes in the dataset')
+    parser.add_argument('--num_classes', type=int, default=10, help='Number of classes in the dataset')
     # model training
     parser.add_argument('--model', type=str, default='resnet18', help='The name of model in the TIMM library')
-    parser.add_argument('--epoch', type=int, default=200)
+    parser.add_argument('--epoch', type=int, default=20)
     parser.add_argument('--batch_size', type=int, default=8)
     # optimizor hyperparameters
     parser.add_argument('--optim', type=str, default='SGD', choices=['SGD', 'Adam'], help='The choice of optimizor, support: SGD, ADAM')

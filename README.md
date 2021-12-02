@@ -1,7 +1,6 @@
 # Workshop: Introduction to Computer Vision
 *UMJI-SSTIA Yuchuan Tian 12/2/2021*
 
-## Config Environment
 ### Download link
 https://jbox.sjtu.edu.cn/l/210aDv
 Directory: CVwksp/software

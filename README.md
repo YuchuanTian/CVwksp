@@ -39,4 +39,4 @@ pip install argparse
 - Installation: ```pip install timm```;
 - Usage: ```import timm```;
 - Model list: ```timm.list_models()```;
-- Create a model: ```model = timm.create_model('tnt_b_patch16_224',num_classes=10)```
+- Create a model: ```model = timm.create_model('<model_name>',num_classes=10)```

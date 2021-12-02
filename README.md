@@ -4,7 +4,7 @@
 ## Config Environment
 ### Download link
 https://jbox.sjtu.edu.cn/l/210aDv
-DIrectory: CVwksp/software
+Directory: CVwksp/software
 
 ### Install Visual Studio Code in Linux
 - Download ```vscode.deb``` to your virtual machine;

@@ -35,5 +35,8 @@ pip install argparse
 
 ### The "Pytorch Image Models" (```timm```) Library
 - The ```timm``` library has various kinds of image classification models
-- Link: https://rwightman.github.io/pytorch-image-models/
-- Installation: ```pip install timm```.
+- Link: https://rwightman.github.io/pytorch-image-models/;
+- Installation: ```pip install timm```;
+- Usage: ```import timm```;
+- Model list: ```timm.list_models()```;
+- Create a model: ```model = timm.create_model('tnt_b_patch16_224',num_classes=10)```

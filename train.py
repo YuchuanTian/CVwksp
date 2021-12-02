@@ -12,7 +12,7 @@ import random
 def train(model, optimizor, criterion, loader, args):
     model.train() # set model to train mode
     all_loss = 0.0
-    for i, (x, y) in enumerate(iter(loader)):
+    for i, (x, y) in enumerate(loader):
         if args.cuda:
             x = x.cuda()
             y = y.cuda()
@@ -34,7 +34,7 @@ def validation(model, loader, args):
     model.eval() # set model to eval mode
     count = 0
     correct_count = 0
-    for i, (x, y) in enumerate(iter(loader)):
+    for i, (x, y) in enumerate(loader):
         if args.cuda:
             x = x.cuda()
             y = y.cuda()
